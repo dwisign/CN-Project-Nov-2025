@@ -116,6 +116,17 @@ p{
     .caption{
         z-index: 2;
         position: relative;
+        .heroLeft{
+            padding-top: 80px
+        }
+        .heroRight{
+            height: 100svh;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-content: end;
+            padding-bottom: 80px;
+        }
     }
 }
 
