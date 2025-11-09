@@ -2,6 +2,10 @@
     background-color: #002688;
 }
 
+.bg-blueSecondaryBrand{
+    background-color: #0057FF;
+}
+
 .bg-yellowPrimaryBrand{
     background-color: #FDCF0B;
 }
@@ -116,8 +120,14 @@ p{
     .caption{
         z-index: 2;
         position: relative;
+
         .heroLeft{
-            padding-top: 80px
+            /* padding-top: 80px */
+            height: 100svh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
         }
         .heroRight{
             height: 100svh;
@@ -130,6 +140,54 @@ p{
     }
 }
 
+.affiliateSection{
+    padding: 80px 0px;
+    text-align: center;
+    .affiliateInner{
+        padding: 0px 80px;
+    }
+}
+
+.offersSection{
+    padding: 80px 0px;
+    text-align: center;
+    .cardOffer{
+        .cardImage{
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+            background-size: cover !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            margin-bottom: 30px;
+        }
+    }
+}
 
 
 
+
+/*Responsive CSS*/
+@media screen and (max-width: 768px) {
+    .heroSection{
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        .caption{
+            .heroLeft{
+                height: auto;
+            }
+            .heroRight{
+                height: auto;
+            }
+        }
+    }
+
+    .affiliateSection{
+        .affiliateInner{
+            padding: 0px 0px;
+        }
+    }
+}
