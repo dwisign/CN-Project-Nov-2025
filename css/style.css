@@ -164,6 +164,20 @@ p{
     }
 }
 
+.sponsorSection{
+    padding: 80px 0px;
+    .list-item{
+        width: 70%;
+    }
+}
+
+.heroSection.footer{
+    height: 500px;
+    background: url(../assets/footersection.jpg) no-repeat center center;
+    .heroLeft{
+        height: 500px;
+    }
+}
 
 
 
@@ -188,6 +202,12 @@ p{
     .affiliateSection{
         .affiliateInner{
             padding: 0px 0px;
+        }
+    }
+
+    .sponsorSection{
+        .list-item{
+            width: 100%;
         }
     }
 }
